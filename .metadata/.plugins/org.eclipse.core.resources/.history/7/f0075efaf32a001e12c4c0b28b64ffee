@@ -1,0 +1,5 @@
+package com.ykp.clinicals.model;
+
+public class ClinicalData {
+
+}

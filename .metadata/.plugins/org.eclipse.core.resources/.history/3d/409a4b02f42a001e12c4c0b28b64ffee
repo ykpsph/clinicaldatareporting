@@ -1,0 +1,10 @@
+package com.ykp.clinicals.model;
+
+import java.sql.Timestamp;
+
+public class ClinicalData {
+	private int id;
+	private String componentName;
+	private String componentValue;
+	private Timestamp measuredDateTime;
+}

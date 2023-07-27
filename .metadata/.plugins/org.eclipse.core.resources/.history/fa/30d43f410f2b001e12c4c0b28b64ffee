@@ -1,0 +1,29 @@
+package com.ykp.clinicals.controllers;
+
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ykp.clinicals.dto.ClinicalDataRequest;
+import com.ykp.clinicals.model.ClinicalData;
+import com.ykp.clinicals.repositories.ClinicalDataRepository;
+import com.ykp.clinicals.repositories.PatientRepository;
+
+@RestController
+@RequestMapping("/api")
+public class ClinicalDataController {
+	
+	private ClinicalDataRepository clinicalDataRepository;
+	private PatientRepository patientRepository;
+	
+	ClinicalDataController(ClinicalDataRepository clinicalDataRepository, PatientRepository patientRepository;){
+		
+	}
+
+	@RequestMapping(value = "/clinicals", method = RequestMethod.POST)
+	public ClinicalData saveClinicalData(@RequestBody ClinicalDataRequest request) {
+		return null;
+
+	}
+}

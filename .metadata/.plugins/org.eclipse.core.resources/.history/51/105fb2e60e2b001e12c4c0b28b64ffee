@@ -1,0 +1,5 @@
+package com.ykp.clinicals.dto;
+
+public class ClinicalDataRequest {
+
+}
